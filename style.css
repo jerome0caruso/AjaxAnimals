@@ -1,0 +1,30 @@
+
+	body{
+		 overflow: hidden;
+	}
+	#animal, .head{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+		padding: 20px;
+		height:100vh;
+	}	
+	.head{
+		height: 0;
+		justify-content:flex-start;
+	}
+	button {
+		padding: 10px;
+		background-color: #000;
+		color: #fff;
+		border: none;
+		cursor: pointer;
+	}
+
+	.hide {
+		visibility: hidden;
+	}
+
+
